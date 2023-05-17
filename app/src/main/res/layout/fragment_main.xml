@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/starwarsbackground">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.85"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/boton_inicial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/guide_button"
+            android:textColor="@color/black"
+            android:text="@string/btn_iniciar"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="30dp"
+            android:backgroundTint="@color/yellow"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

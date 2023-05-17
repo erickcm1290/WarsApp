@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WarsApp</string>
+    <string name="nuevofragment">Se creó un nuevo fragment.</string>
+    <string name="btn_iniciar">Iniciar</string>
+</resources>
